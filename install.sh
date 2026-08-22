@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -Eeuo pipefail
 
-REPO="Mohzh344/android-wifi-monitor-injection-rootless"
+REPO="Mohzh344/rootless-wifi-lab"
 API_URL="https://api.github.com/repos/$REPO/releases/latest"
 PROJECT_DIR="${AWVM_PROJECT_DIR:-${HOME:?}/awvm}"
 if [ -n "${VM_STATE_ROOT:-}" ]; then

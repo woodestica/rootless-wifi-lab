@@ -31,7 +31,7 @@ Install the bootstrap dependencies and run the public installer:
 ```sh
 pkg update -y
 pkg install -y bash curl tar coreutils
-curl -fL https://raw.githubusercontent.com/Mohzh344/android-wifi-monitor-injection-rootless/main/install.sh -o install.sh
+curl -fL https://raw.githubusercontent.com/Mohzh344/rootless-wifi-lab/main/install.sh -o install.sh
 bash install.sh
 ```
 

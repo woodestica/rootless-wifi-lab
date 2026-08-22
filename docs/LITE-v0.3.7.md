@@ -9,7 +9,7 @@ From Termux, install the small bootstrap prerequisites and run the general insta
 ```sh
 pkg update -y
 pkg install -y bash curl tar coreutils
-curl -fL https://raw.githubusercontent.com/Mohzh344/android-wifi-monitor-injection-rootless/main/install.sh -o install.sh
+curl -fL https://raw.githubusercontent.com/Mohzh344/rootless-wifi-lab/main/install.sh -o install.sh
 bash install.sh
 ```
 
